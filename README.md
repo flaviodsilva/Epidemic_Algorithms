@@ -1,5 +1,7 @@
 This paper addresses the study of epidemic algorithms for information dissemination in a network, a scope of the CU (curricular unit) of Distributed Systems. Only anti entropy type algorithms were considered in this study for simulation, that was developed with python. The objective is to observe the behavior of infection and message transmission on different conditions, and conclude on what is the best algorithm.
 
+![Spread Example](./images/spread.gif)
+
 ## Solution description
 In order to simulate the spreading of a message in a network and evaluate its performance, a program in a python environment was developed, as it is easy to develop with, and it's also the state-of-the-art programming language when it comes to data analysis. The goal was to analyze the behavior of the anti-entropy algorithms for a network under perfect conditions (no hardware or transmission failures), and then see what happens in more realistic conditions, i.e. with node crashes and message errors.
 
